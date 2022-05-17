@@ -7,7 +7,7 @@ cubap
  
 * @description  
 This module includes a custom `<button is="auth-button">` element for authentication within 
- the Dunbar Public Library and Archive Project.
+ the RERUM Users Cohort.
 * Notes: 
   - Include this module and a button[is='auth-button'] element to use. 
   - Add the `disabled` property on any page that should be available to the public, but knowing the user may be helpful.

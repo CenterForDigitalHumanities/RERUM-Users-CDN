@@ -3,7 +3,7 @@
  * @author cubap
  * 
  * @description This module includes a custom `<button is="auth-button">` element for authentication within 
- * the Dunbar Public Library and Archive Project.
+ * the RERUM Users Cohort.
  * Notes: 
  * - Include this module and a button[is='auth-button'] element to use. 
  * - Add the `disabled` property on any page that should be available to the public, but knowing the user may be helpful.
@@ -13,8 +13,7 @@
 import 'https://cdn.auth0.com/js/auth0/9.19.0/auth0.min.js'
 
 const AUDIENCE = "https://cubap.auth0.com/api/v2/"
-const ISSUER_BASE_URL = "cubap.auth0.com"
-const CLIENT_ID = "z1DuwzGPYKmF7POW9LiAipO5MvKSDERM"
+const CLIENT_ID = "CayJsaU9sXIrOIgziOwDIDdGfDfR3Am1"
 const DOMAIN = "cubap.auth0.com"
 
 const webAuth = new auth0.WebAuth({
