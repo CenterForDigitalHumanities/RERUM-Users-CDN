@@ -32,7 +32,7 @@ const logout = () => {
     document.querySelectorAll('[is="auth-creator"]').forEach(el=>el.connectedCallback())
     webAuth.logout({ returnTo: origin })
 }
-const login = (custom) => webAuth.authorize(Object.assign({ authParamsMap: { 'app': 'dla' } },custom))
+const login = (custom) => webAuth.authorize(Object.assign({ authParamsMap: { 'app': ['rerum', 'dla'] } },custom))
 
 const getReferringPage = () => {
     try {
