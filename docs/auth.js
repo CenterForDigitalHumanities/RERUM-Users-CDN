@@ -64,7 +64,7 @@ class AuthButton extends HTMLButtonElement {
             document.querySelectorAll('[is="auth-creator"]').forEach(el=>el.connectedCallback())
             this.innerText = `Logout ${RERUM_USER.nickname}`
             this.removeAttribute('disabled')
-            const loginEvent = new CustomEvent('dla-authenticated',{detail:window.RERUM_USER})
+            const loginEvent = new CustomEvent('rerum-authenticated',{detail:window.RERUM_USER})
             this.dispatchEvent(loginEvent)
         })
     }
